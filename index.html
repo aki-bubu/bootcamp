@@ -2,32 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="manifest" href="./manifest.json">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>BootCamp</title>
-    <link rel="manifest" href="/manifest.json">
-    <link rel="import" href="/my-view.html" async>
-    <meta name="theme-color" content="#29549a">
-    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-                window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/service-worker.js');
-            });
-        }
-    </script>
+    <title>bootcamp</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-</body>
-      <my-view key="view1" pages='[["view1","Page 1"], ["view2","Page 2"], ["view3","Page 3"]]'>
-        <svg viewBox="0 0 24 30" fill="#eee" width="128"
-             style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; margin: auto;">
-          <path d="M19 4h-4L7.11 16.63 4.5 12 9 4H5L.5 12 5 20h4l7.89-12.63L19.5 12 15 20h4l4.5-8z"/>
-        </svg>
-        <noscript>Polymer Sample PWA</noscript>
-      </my-view>
-      <!-- <h1>LOVE U</h1> -->
+<body>
+    <header>
+        <div class="head">
+            <h1>Boot Camp</h1>
+        </div>
+        <!-- ナビゲーションバー。非同期通信で行う  -->
+        <div id="navbar">
+            <div id="danceevent-nav">
+                <a href="danceevent.php"><img src="icon/nav_dance_icon.png" alt="ダンスイベント"></a>
+                <p>DANCE</p>
+            </div>
+            
+            <div id="yogaevent-nav">
+                <a href=""><img src="icon/nav_yoga_icon.png" alt="ヨガイベント"></a>
+                <p>YOGA</p>
+            </div>
+            
+            <div id="runevent-nav">
+                <a href="runevent.php"><img src="icon/nav_run_icon.png" alt="ランイベント"></a>
+                <p>RUN</p>
+            </div>
+                      
+        </div>
+    </header>
+    <!-- イベントの一覧表示 -->
+    <div class="main-container">
+        
+        <!-- <div class="container"> 
+            <div class="image-container"><img class ="container-img"src="img/event_img.jpg" alt="都内で楽しむナイトヨガ"></div>
+            <div class="title-container"><p>都内で楽しむナイトヨガ</p></div>
+            <div class="detail-container">
+                <!-- <p class="time"></p>
+                <p class="location"></p> -->
+            <!-- </div>
+        </div>  -->
+    
+    </div>
+
+    
+    <footer>
+    <!-- ツールバー。画面遷移する -->
+        <div id="toolbar">
+            <div id="home-tool">
+                <a href="home.php"><img class="toolicon" src="icon/tool_home_icon.png" alt="ホーム"></a>
+                <p>ホーム</p>
+            </div>
+
+            <div id="activity-tool">
+                <a href="activity.php"><img class="toolicon" src="icon/tool_activity_icon.png" alt="アクティビティ"></a>
+                <p>アクティビティ</p>
+            </div>
+
+            <div id="setting-tool">
+                <a href="setting.php"><img class="toolicon" src="icon/tool_setting_icon.png" alt="設定"></a>
+                <p>設定</p>
+            </div>
+             <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+            
+            <script src="js/main.js"></script>    
+        </div>
+    </footer>
 </body>
 </html>
