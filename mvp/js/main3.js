@@ -27,14 +27,14 @@ $(function(){
     //containerの要素を作成する
     //本当はfor文で綺麗に描きたい
     
-    let container1 = makeContainer('img/event_img.jpg','都内で楽しむナイトヨガ');
-    let container2 = makeContainer('img/event_img.jpg','都内で楽しむナイトヨガ');
-    let container3 = makeContainer('img/event_img.jpg','都内で楽しむナイトヨガ');
+    let container1 = makeContainer('img/event3_img.jpg','早朝トレーニング');
+    let container2 = makeContainer('img/event3_img.jpg','早朝トレーニング');
+    let container3 = makeContainer('img/event3_img.jpg','早朝トレーニング');
     containers.push(container1,container2,container3);
    
     
     // console.log(imageContainer);
-    // console.log(containers);
+    console.log(containers);
     function make(){
         $('.main-container').prepend(containers);
     }
@@ -42,12 +42,4 @@ $(function(){
     // let containers = function(){
     //     $()
     // } 
-    console.log("何したい？");
-    $('#danceevent-nav').click(function(){
-        $('.main-container').load('load2.html');
-        
-    });
-    console.log()
-      
-    
 });
