@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SANTE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>SANTE</h1>
+        </div>
+        <!-- ナビゲーションバー。非同期通信で行う  -->
+        <nav class="slidemenu">
+  
+                <!-- Item 1 -->
+                
+                <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+                <label for="slide-item-1"><span id="slide-title1">FUN</span></label>
+                
+                <!-- Item 2 -->
+                <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+                <label for="slide-item-2"><span id="slide-title2">RELAX</span></label>
+               
+                <!-- Item 3 -->
+                <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+                <label for="slide-item-3"><span id="slide-title3">HARD</span></label>
+                
+                <div class="clear"></div>
+                
+                <!-- Bar -->
+                <div class="slider">
+                  <div class="bar"></div>
+                </div>
+                
+        </nav>
+        <body>
+                <!-- 日付入力 -->
+                <input type="date"></input>
+              </body>
+    </header>
+    <!-- イベントの一覧表示 -->
+    <div class="main-container">
+
+        <!-- <div class="container"> 
+           
+                   <div class="image-container"><img class ="container-img"src="img/event_img.jpg" alt="都内で楽しむナイトヨガ"></div>
+                   <div class="time-container">
+                        <p>pm7:00~pm8:30</p>
+                    </div>
+                    <div class="profile-container">
+                        <img src="icon/fake_person.png" alt="プロフィール">
+                    </div>
+                   <div class="detail-container">   
+                       <p class="title">都内で楽しむナイトヨガ</p>
+                       <div class="location-container">
+                            <img class="location-icon" src="icon/cont_location_icon.png" alt="アイコン">
+                            <p class="location">三河台公園</p>
+                       </div>
+                    </div>
+            
+        </div>  -->
+
+    </div>
+
+    
+    <footer>
+    <!-- ツールバー。画面遷移する -->
+        <div id="toolbar">
+            <div id="home-tool">
+                <a href="home.php"><img class="toolicon" src="icon/tool_home_icon.png" alt="ホーム"></a>
+                <p>ホーム</p>
+            </div>
+
+            <div id="activity-tool">
+                <a href="activity.php"><img class="toolicon" src="icon/tool_activity_icon.png" alt="アクティビティ"></a>
+                <p>アクティビティ</p>
+            </div>
+
+            <div id="setting-tool">
+                <a href="setting.php"><img class="toolicon" src="icon/tool_setting_icon.png" alt="設定"></a>
+                <p>設定</p>
+            </div>
+             <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+            
+            <script src="js/main.js"></script>    
+        </div>
+    </footer>
+</body>
+</html>

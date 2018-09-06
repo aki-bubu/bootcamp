@@ -1,0 +1,14 @@
+{
+    "yoga":[
+        {"name": "都内で楽しむナイトヨガ","image":"img/event_img.jpg"},
+        {"name": "都内で楽しむナイトヨガ","image":"img/event_img.jpg"}
+    ],
+    "run":[
+        {"name": "ランニングイベント","image":"img/event2_img.jpg"},
+        {"name": "ランニングイベント","image":"img/event2_img.jpg"}
+    ],
+    "dance":[
+        {"name": "早朝パーソナルトレーニング","image":"img/event3_img.jpg"},
+        {"name": "早朝パーソナルトレーニング","image":"img/event3_img.jpg"}
+    ]
+}
