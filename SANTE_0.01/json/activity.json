@@ -1,15 +1,17 @@
 {
     "fun":[
-        {"image":"img/event_img.jpg","time":"pm7:00~pm8:30","name": "20代限定。ランニングクラブ","profile":"icon/fake_person.png","location":"三河台公園"},
-        {"image":"img/event2_img.jpg","time":"pm7:30~pm8:30","name": "EDMで踊るズンバ","profile":"icon/fake_person.png","location":"lelelemon 原宿"},
-        {"image":"img/event3_img.jpg","time":"pm6:00~pm7:30","name": "女性限定ホットヨガ in Shibuya","profile":"icon/fake_person.png","location":"ホットヨガLAVA原宿店"}
+        {"image":"img/event_img.jpg","like":"22","participants":"11","time":"pm7:00~pm8:30","name": "20代限定。ランニングクラブ","profile":"icon/fake_person.png","location":"三河台公園","comment":"2017年にスタートしたナイトヨガイベント。都会の喧騒を離れて、心と体をほぐしませんか？"},
+        {"image":"img/event2_img.jpg","like":"22","participants":"11","time":"pm7:30~pm8:30","name": "EDMで踊るズンバ","profile":"icon/fake_person.png","location":"lelelemon 原宿","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"},
+        {"image":"img/event3_img.jpg","like":"22","participants":"11","time":"pm6:00~pm7:30","name": "女性限定ホットヨガ in Shibuya","profile":"icon/fake_person.png","location":"ホットヨガLAVA原宿店","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"}
     ],
     "relax":[
-        {"image":"img/event4_img.jpg.JPEG","name": "都内で楽しむナイトヨガ","profile":"icon/fake_person.png","time":"pm7:00~pm8:30","location":"池袋"},
-        {"image":"img/event5_img.jpg.JPEG","name": "ピタティス in 六本木","profile":"icon/fake_person.png","time":"pm6:30~pm7:30","location":"三河台公園"}
+        {"image":"img/event4_img.jpg.JPEG","like":"22","participants":"11","name": "都内で楽しむナイトヨガ","profile":"icon/fake_person.png","time":"pm7:00~pm8:30","location":"池袋","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"},
+        {"image":"img/event5_img.jpg.JPEG","like":"22","participants":"11","name": "ピタティス in 六本木","profile":"icon/fake_person.png","time":"pm6:30~pm7:30","location":"三河台公園","comment":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"},
+        {"image":"img/event3_img.jpg","like":"22","participants":"11","time":"pm6:00~pm7:30","name": "女性限定ホットヨガ in Shibuya","profile":"icon/fake_person.png","location":"ホットヨガLAVA原宿店","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"}
     ],
     "hard":[
-        {"image":"img/event6_img.jpg.JPEG","name": "プロボクサーに習うボクササイズ","profile":"icon/fake_person.png","time":"am9:30~am11:30","location":"studio mission"},
-        {"image":"img/event7_img.jpg.JPEG","name": "ブートキャンプ　in 代々木公園","profile":"icon/fake_person.png","time":"am10:00~am11:30","location":"代々木公園"}
+        {"image":"img/event6_img.jpg.JPEG","like":"22","participants":"11","name": "プロボクサーに習うボクササイズ","profile":"icon/fake_person.png","time":"am9:30~am11:30","location":"studio mission","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"},
+        {"image":"img/event7_img.jpg.JPEG","like":"22","participants":"11","name": "ブートキャンプ　in 代々木公園","profile":"icon/fake_person.png","time":"am10:00~am11:30","location":"代々木公園","comment":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+        {"image":"img/event3_img.jpg","like":"22","participants":"11","time":"pm6:00~pm7:30","name": "女性限定ホットヨガ in Shibuya","profile":"icon/fake_person.png","location":"ホットヨガLAVA原宿店","comment":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"}
     ]
 }

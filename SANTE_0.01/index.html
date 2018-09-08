@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SANTE</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+ 
+
 </head>
 <body>
     <header>
@@ -38,7 +41,10 @@
         </nav>
         <body>
                 <!-- 日付入力 -->
-                <input type="date"></input>
+                <div class="calender">
+                    <img src="img/カレンダーのフリーアイコン6.svg" alt="カレンダー">
+                    <input type="data" id="datepicker">
+                </div>
               </body>
     </header>
     <!-- イベントの一覧表示 -->
@@ -75,7 +81,7 @@
             </div>
 
             <div id="activity-tool">
-                <a href="activity.php"><img class="toolicon" src="icon/tool_activity_icon.png" alt="アクティビティ"></a>
+                <a href="activity.html"><img class="toolicon" src="icon/tool_activity_icon.png" alt="アクティビティ"></a>
                 <p>アクティビティ</p>
             </div>
 
@@ -86,6 +92,7 @@
              <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
             
             <script src="js/main.js"></script>    
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         </div>
     </footer>
 </body>
