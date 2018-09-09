@@ -36,7 +36,7 @@ $(function(){
     let relax=[];
     let hard=[];
     function makeContainers(item){
-            $.getJSON("/json/activity.json",
+            $.getJSON("json/activity.json",
                 function pushes(data){
                     for (let i = 0; i < data.length; i++) {
                         if(data[i].key === 'fun') {
@@ -49,7 +49,7 @@ $(function(){
                     }
                     // let i =0;
                 for(var i=0; i< item.length; i++){
-                    let container = $('<a href="detail?activity_id="1".html"></a>');
+                    let container = $('<a href="detail.html"></a>');
                 //    console.log(item[i].id);
                     let imageContainer = $('<div></div>');
                     let timeContainer = $('<div></div>');
@@ -67,7 +67,7 @@ $(function(){
                     $(location).addClass("location");
                     //ここの画像ファイルとテキストを入れる形に
                     imageContainer.html('<img class ="container-img"src="'+ item[i].image +'" alt="' + item[i].name + '">');
-                    timeContainer.html('<p>'+ item[i].time +'</p>');
+                    timeContainer.html('<p>'+ item[i].startTime +'~'+ item[i].endTime +'</p>');
                     profileContainer.html('<img src="' + item[i].profile +'" alt="プロフィール">');
                     detailContainer.html('<p>'+ item[i].name +'</p>');
                     location.html()
