@@ -5,42 +5,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>都内で楽しむナイトヨガ</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/detail.css">
     <script src="//api.its-mo.com/v3/loader?key=JSZ9ea6d26ac8a7|VbFeP&api=zdcmap.js,control.js&enc=UTF8&force=1" type="text/javascript"></script>
-    <script type="text/javascript">
-
-        var map, mrk,
-            lat = 35.6778614, lon = 139.7703167;
-
-        function loadMap() {
-            var latlon = new ZDC.LatLon(lat, lon);
-            map = new ZDC.Map(
-                document.getElementById('ZMap'),
-                {
-                    latlon: latlon,
-                    zoom: 9,
-                    mapType: ZDC.MAPTYPE_HIGHRES_LV18
-                }
-            );
-
-            /* スケールバーを作成 */
-            map.addWidget(new ZDC.ScaleBar());
-
-            /* 通常のコントロールを表示 */
-            map.addWidget(new ZDC.Control());
-
-            /* マーカを作成 */
-            mrk = new ZDC.Marker(latlon);
-
-            /* マーカを追加 */
-            map.addWidget(mrk);
-        }
-
-    </script>
+    
 </head>
 
 <body onload="loadMap();">
-    <header>
+    <header class="header">
         <!-- <div class="head">
             <img src="icon/back.png" alt="戻る">
             <h1>都内で楽しむナイトヨガ</h1>
@@ -95,19 +67,12 @@
 
         </div>
         <div class="comment-container">
-            <p class="comment">2017年にスタートしたナイトヨガイベント。都会の喧騒を
+            <p id="comment" class="comment">2017年にスタートしたナイトヨガイベント。都会の喧騒を
                 離れて、心と体をほぐしませんか？<br>
-                kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-                kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-                333333333333333333333
-                33333333333
-                333333
-                tttttttttttttttttttttttttttttttttt
-                tttttttttttttttttttttttttttttttttt
-                yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-                yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-                yyyyyy
-
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaa
             
             </p>
             <div class="comment-btn">
@@ -115,25 +80,51 @@
                     <button id="more-btn">さらに読む</button>
                 <hr>
             </div>
+
         </div>
+        <script>
+            var map, mrk,
+                lat = 38.6778614, lon = 139.7703167;
+
+            function loadMap() {
+                var latlon = new ZDC.LatLon(lat, lon);
+                map = new ZDC.Map(
+                    document.getElementById('ZMap'),
+                    {
+                        latlon: latlon,
+                        zoom: 9,
+                        mapType: ZDC.MAPTYPE_HIGHRES_LV18
+                    }
+                );
+
+                /* スケールバーを作成 */
+                map.addWidget(new ZDC.ScaleBar());
+
+                /* 通常のコントロールを表示 */
+                map.addWidget(new ZDC.Control());
+
+                /* マーカを作成 */
+                mrk = new ZDC.Marker(latlon);
+
+                /* マーカを追加 */
+                map.addWidget(mrk);
+            }
+        </script>
         <div class="foot-container">
             <div class="agreement-container">
                 <p>利用規約・注意事項など</p>
             </div>
-            <div class="join-container">
-                <div class="join-detail">
-                    <div class="join-value">
-                            <p>¥〇,〇〇〇</p>            
-                    </div>
-                </div>
-                <div class="join-btn-container">
-                    <a id="join-btn" href="ジョイン">JOIN</a>
-                </div>
-
+            <div id="join-container" class="join-container">
+                 
+                    <p  class="join-value">¥〇,〇〇〇</p>            
+                    <img src="icon/joinBtn_icon.png" alt="参加" class="join-btn">    
+                
             </div>
+            
         </div>
     </div>
      <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="js/detail.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
